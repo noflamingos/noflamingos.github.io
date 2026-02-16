@@ -4,16 +4,24 @@
   name: Battle
 - slug: breakout
   name: Breakout
+- slug: defending
+  name: Defending
 - slug: defensive-zone
   name: Defensive Zone
+- slug: dry-land
+  name: Dry Land
 - slug: face-offs
   name: Face-offs
-- slug: forecheck
-  name: Forecheck
+- slug: flow
+  name: Flow
+- slug: individual-skill
+  name: Individual Skill
 - slug: offensive-zone
   name: Offensive Zone
 - slug: passing
   name: Passing
+- slug: puck-control
+  name: Puck Control
 - slug: regroup
   name: Regroup
 - slug: shooting
