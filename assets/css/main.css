@@ -32,7 +32,7 @@ a:hover { text-decoration: underline; }
   background: rgba(11, 18, 32, 0.75);
   border-bottom: 1px solid var(--border);
 }
-.header-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; gap: 18px; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; gap: 18px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text); }
 .brand-logo { width: 52px; height: 52px; }
 .brand-name { font-weight: 700; letter-spacing: 0.2px; }
