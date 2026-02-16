@@ -24,6 +24,8 @@
   name: Puck Control
 - slug: regroup
   name: Regroup
+- slug: rushes
+  name: Rushes
 - slug: shooting
   name: Shooting
 - slug: skating
