@@ -1,0 +1,28 @@
+- slug: all
+  name: All
+- slug: battle
+  name: Battle
+- slug: breakout
+  name: Breakout
+- slug: defensive-zone
+  name: Defensive Zone
+- slug: face-offs
+  name: Face-offs
+- slug: forecheck
+  name: Forecheck
+- slug: offensive-zone
+  name: Offensive Zone
+- slug: passing
+  name: Passing
+- slug: regroup
+  name: Regroup
+- slug: shooting
+  name: Shooting
+- slug: skating
+  name: Skating
+- slug: small-area-game
+  name: Small Area Game
+- slug: special-teams
+  name: Special Teams
+- slug: warm-up
+  name: Warm-up

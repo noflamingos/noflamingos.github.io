@@ -1,0 +1,35 @@
+---
+title: Home
+layout: default
+---
+
+<section class="hero">
+  <h1 class="hero-title">Hockey drills</h1>
+  <p class="hero-subtitle">Search and filter drills by category.</p>
+
+  <div class="search">
+    <label class="sr-only" for="searchInput">Search drills</label>
+    <input id="searchInput" class="search-input" type="search" placeholder="Search by name or short description…" autocomplete="off" />
+  </div>
+</section>
+
+<section class="filters">
+  <div id="categoryPills" class="pills" aria-label="Categories">
+    <!-- pills injected by JS -->
+  </div>
+</section>
+
+<section class="results">
+  <div class="results-header">
+    <h2 class="results-title">Drills</h2>
+    <div id="resultsCount" class="results-count"></div>
+  </div>
+
+  <div id="drillGrid" class="grid">
+    <!-- cards injected by JS -->
+  </div>
+</section>
+
+<script>
+  window.NFH_PAGE = "home";
+</script>

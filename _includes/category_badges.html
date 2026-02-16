@@ -1,0 +1,13 @@
+{% assign cats = include.categories %}
+{% if cats and cats.size > 0 %}
+  <div class="badges">
+    {% for c in cats %}
+      {% assign match = site.data.categories | where: "slug", c | first %}
+      {% if match %}
+        <span class="badge">{{ match.name }}</span>
+      {% else %}
+        <span class="badge">{{ c }}</span>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

@@ -1,0 +1,14 @@
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img class="brand-logo" src="{{ '/assets/images/logo.svg' | relative_url }}" alt="No Flamingos Hockey logo">
+      <span class="brand-name">{{ site.title }}</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-link {% if page.url == '/' %}is-active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+      <a class="nav-link {% if page.url contains '/drills' %}is-active{% endif %}" href="{{ '/drills/' | relative_url }}">Drills</a>
+      <a class="nav-link {% if page.url contains '/about' %}is-active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
+    </nav>
+  </div>
+</header>

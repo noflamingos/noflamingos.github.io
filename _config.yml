@@ -1,0 +1,29 @@
+title: No Flamingos Hockey
+description: Hockey drills for the team
+url: ""   # set to your GitHub Pages URL if you want absolute URLs
+baseurl: ""  # e.g. "/repo-name" if using project pages
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+collections:
+  drills:
+    output: true
+    permalink: /drills/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: drills
+    values:
+      layout: drill
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - node_modules
+  - vendor

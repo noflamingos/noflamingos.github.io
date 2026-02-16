@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="drill-page">
+    {% include nav.html %}
+    <main class="container page">
+      <article class="drill">
+        <div class="drill__top">
+          <h1 class="drill__title">{{ page.title }}</h1>
+
+          <div class="drill__meta">
+            <div class="drill__meta-block">
+              <div class="meta-label">Category</div>
+              {% include category_badges.html categories=page.categories %}
+            </div>
+
+            <div class="drill__meta-block">
+              <div class="meta-label">Equipment</div>
+              {% if page.equipment %}
+                <ul class="meta-list">
+                  {% for e in page.equipment %}
+                    <li>{{ e }}</li>
+                  {% endfor %}
+                </ul>
+              {% else %}
+                <div class="muted">—</div>
+              {% endif %}
+            </div>
+
+            <div class="drill__actions">
+              <button class="btn" type="button" onclick="window.print()">Print</button>
+            </div>
+          </div>
+        </div>
+
+        {% if page.images and page.images.size > 0 %}
+          <div class="drill__media">
+            {% for img in page.images %}
+              <img class="drill__image" src="{{ img | relative_url }}" alt="{{ page.title }} diagram {{ forloop.index }}">
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <section class="drill__section">
+          <h2>Setup</h2>
+          <div class="prose">
+            {{ page.setup | markdownify }}
+          </div>
+        </section>
+
+        <section class="drill__section">
+          <h2>Description</h2>
+          <div class="prose">
+            {{ page.full_description | markdownify }}
+          </div>
+        </section>
+
+        <section class="drill__section">
+          <h2>Key coaching points</h2>
+          {% if page.coaching_points %}
+            <ul class="list">
+              {% for p in page.coaching_points %}
+                <li>{{ p }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <div class="muted">—</div>
+          {% endif %}
+        </section>
+
+        <section class="drill__section">
+          <h2>Variations</h2>
+          <div class="prose">
+            {{ page.variations | default: "—" | markdownify }}
+          </div>
+        </section>
+
+        {% if page.youtube %}
+          <section class="drill__section">
+            <h2>Video</h2>
+            <div class="video">
+              <iframe
+                src="https://www.youtube.com/embed/{{ page.youtube | split: 'v=' | last | split: '&' | first }}"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+          </section>
+        {% endif %}
+      </article>
+    </main>
+
+    {% include print_header.html %}
+
+    <footer class="site-footer no-print">
+      <div class="container">
+        <small>© {{ "now" | date: "%Y" }} {{ site.title }}</small>
+      </div>
+    </footer>
+  </body>
+</html>

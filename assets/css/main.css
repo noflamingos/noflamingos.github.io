@@ -1,0 +1,173 @@
+:root {
+  --bg: #0b1220;
+  --card: #0f1a2e;
+  --text: #e7eefc;
+  --muted: #9db0d6;
+  --border: rgba(255,255,255,0.10);
+  --pill: rgba(255,255,255,0.08);
+  --pill-active: rgba(255,255,255,0.18);
+  --link: #b6d3ff;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.45;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container { width: min(1100px, calc(100% - 32px)); margin: 0 auto; }
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(12px);
+  background: rgba(11, 18, 32, 0.75);
+  border-bottom: 1px solid var(--border);
+}
+.header-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; gap: 18px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text); }
+.brand-logo { width: 28px; height: 28px; }
+.brand-name { font-weight: 700; letter-spacing: 0.2px; }
+
+.nav { display: flex; gap: 14px; }
+.nav-link { color: var(--muted); padding: 8px 10px; border-radius: 10px; }
+.nav-link.is-active, .nav-link:hover { color: var(--text); background: rgba(255,255,255,0.06); text-decoration: none; }
+
+.page { padding: 22px 0 40px; }
+
+.hero { padding: 18px 0 10px; }
+.hero-title { margin: 0 0 6px; font-size: clamp(26px, 3vw, 36px); }
+.hero-subtitle { margin: 0 0 14px; color: var(--muted); }
+
+.search { margin: 0 0 14px; }
+.search-input {
+  width: 100%;
+  padding: 14px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  font-size: 16px;
+  outline: none;
+}
+.search-input:focus { border-color: rgba(182,211,255,0.45); }
+
+.pills { display: flex; flex-wrap: wrap; gap: 10px; padding: 10px 0 6px; }
+.pill {
+  border: 1px solid var(--border);
+  background: var(--pill);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+.pill[aria-pressed="true"] { background: var(--pill-active); border-color: rgba(255,255,255,0.22); }
+
+.results { padding: 10px 0; }
+.results-header { display:flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.results-title { margin: 6px 0 10px; font-size: 18px; }
+.results-count { color: var(--muted); font-size: 14px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(230px, 1fr) );
+  gap: 14px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 120ms ease, border-color 120ms ease;
+}
+.card:hover { transform: translateY(-2px); border-color: rgba(182,211,255,0.35); }
+
+.card-thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  background: rgba(255,255,255,0.03);
+}
+.card-body { padding: 12px 12px 14px; }
+.card-title { margin: 0 0 6px; font-weight: 700; font-size: 16px; color: var(--text); }
+.card-meta { color: var(--muted); font-size: 13px; }
+
+.site-footer { border-top: 1px solid var(--border); padding: 18px 0; color: var(--muted); }
+
+.drill__top { padding: 10px 0 8px; }
+.drill__title { margin: 0 0 10px; font-size: clamp(26px, 3vw, 38px); }
+.drill__meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 14px;
+  align-items: start;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.03);
+  border-radius: 16px;
+  padding: 14px;
+}
+@media (max-width: 760px){
+  .drill__meta { grid-template-columns: 1fr; }
+  .drill__actions { justify-self: start; }
+}
+
+.meta-label { font-size: 12px; letter-spacing: 0.3px; color: var(--muted); text-transform: uppercase; margin-bottom: 6px; }
+.meta-list { margin: 0; padding-left: 18px; }
+
+.badges { display: flex; flex-wrap: wrap; gap: 8px; }
+.badge { font-size: 13px; border: 1px solid var(--border); background: rgba(255,255,255,0.04); padding: 6px 10px; border-radius: 999px; }
+
+.btn {
+  border: 1px solid rgba(182,211,255,0.45);
+  background: rgba(182,211,255,0.12);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.drill__media { margin: 14px 0 10px; display: grid; gap: 10px; }
+.drill__image { width: 100%; border-radius: 16px; border: 1px solid var(--border); background: rgba(255,255,255,0.03); }
+
+.drill__section { padding: 10px 0; border-top: 1px solid var(--border); }
+.drill__section h2 { margin: 6px 0 8px; font-size: 18px; }
+.prose { color: var(--text); }
+.list { margin: 0; padding-left: 18px; }
+
+.video { position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; border: 1px solid var(--border); background: rgba(255,255,255,0.03); }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+.muted { color: var(--muted); }
+.sr-only { position: absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+
+/* PRINT */
+.print-header { display: none; }
+@media print {
+  :root { --bg: #ffffff; --text: #111111; --muted: #333333; --border: #cccccc; }
+  body { background: #fff; color: #111; }
+  .site-header, .site-footer, .no-print, .btn, .pills, .search, .results-header, .results-count { display: none !important; }
+  a { color: #111; text-decoration: none; }
+  .container { width: 100%; margin: 0; }
+  .page { padding: 0; }
+  .print-header { display: block; border-bottom: 1px solid #ccc; padding: 10px 0 12px; margin: 0 0 10px; }
+  .print-header__inner { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .print-header__brand { display: flex; align-items: center; gap: 10px; }
+  .print-header__logo { width: 26px; height: 26px; }
+  .print-header__site { font-weight: 700; }
+  .print-header__title { font-weight: 800; font-size: 16px; }
+  .drill__meta { grid-template-columns: 1fr 1fr; border: 1px solid #ddd; }
+  .drill__media { margin-top: 10px; }
+  .drill__image { max-width: 92%; margin: 0 auto; display: block; }
+}
