@@ -4,7 +4,6 @@ short_description: "Warm-up lane skates with options."
 thumbnail: "/assets/images/drills/world-famous-alley-skates/thumb.png"
 images:
   - "/assets/images/drills/world-famous-alley-skates/1.png"
-  - "/assets/images/drills/world-famous-alley-skates/2.png"
 setup: |
   Set up three rows of pylons to create four lanes for skating. Players line up in one corner with pucks.
 full_description: |
