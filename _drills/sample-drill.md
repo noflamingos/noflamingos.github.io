@@ -1,6 +1,6 @@
 ---
 title: "Sample Drill (Replace Me)"
-short_description: "A short one-liner used on cards and search."
+short_description: "A quick and short one-liner used on cards and search."
 thumbnail: "/assets/images/drills/sample-drill/thumb.png"
 images:
   - "/assets/images/drills/sample-drill/1.png"
