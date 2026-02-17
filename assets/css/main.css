@@ -102,7 +102,7 @@ a:hover { text-decoration: underline; }
 .card-body { padding: 12px 12px 14px; }
 .card-title { margin: 0 0 6px; font-weight: 700; font-size: 16px; color: var(--text); }
 .card-desc { margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.35; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
-.card-meta { color: var(--muted); font-size: 12px; font-style: italic; letter-spacing: 0.3px; }
+.card-meta { color: var(--muted); margin-top: 8px; font-size: 12px; font-style: italic; letter-spacing: 0.3px; }
 
 .site-footer { border-top: 1px solid var(--border); padding: 18px 0; color: var(--muted); }
 
