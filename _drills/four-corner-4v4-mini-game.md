@@ -16,7 +16,7 @@ equipment:
 - "Pucks"
 - "Pylons"
 categories:
-- "small-area-games"
+- "small-area-game"
 variations: |
   
 youtube: "https://youtu.be/crfFNI5bMPQ"
