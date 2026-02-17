@@ -14,6 +14,7 @@ coaching_points:
 equipment:
   - "Pucks"
   - "2 nets"
+  - "Other things"
 categories:
   - "warm-up"
   - "battle"
