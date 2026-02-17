@@ -77,8 +77,8 @@
     const desc = document.createElement("div");
     desc.className = "card-desc";
     desc.textContent = drill.short_description || "";
+    
     body.appendChild(desc);
-
     body.appendChild(title);
     body.appendChild(meta);
 
