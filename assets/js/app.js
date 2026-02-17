@@ -78,8 +78,8 @@
     desc.className = "card-desc";
     desc.textContent = drill.short_description || "";
     
-    body.appendChild(desc);
     body.appendChild(title);
+    body.appendChild(desc);
     body.appendChild(meta);
 
     a.appendChild(img);
