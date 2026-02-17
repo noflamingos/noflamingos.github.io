@@ -19,6 +19,6 @@ categories:
 - "regroup"
 - "rushes"
 variations: |
-Run the drill in the other direction so the other D can make the outlet pass.
+  Run the drill in the other direction so the other D can make the outlet pass.
 youtube: "https://youtu.be/uXxC9hziTwM?si=V119YVfCypEdMGFO"
 ---
