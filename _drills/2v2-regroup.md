@@ -4,7 +4,6 @@ short_description: "Simultaneous NZ regroup to 2v2 attack."
 thumbnail: "/assets/images/drills/2v2-regroup/thumb.png"
 images:
   - "/assets/images/drills/2v2-regroup/1.png"
-  - "/assets/images/drills/2v2-regroup/2.png"
 setup: |
 Line up two pairs of F on the red line and two pairs of D staggered to either half of the ice.
 full_description: |
