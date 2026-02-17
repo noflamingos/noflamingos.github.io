@@ -3,9 +3,9 @@ title: "2v2 Regroup"
 short_description: "Simultaneous NZ regroup to 2v2 attack."
 thumbnail: "/assets/images/drills/2v2-regroup/thumb.png"
 images:
-  - "/assets/images/drills/2v2-regroup/1.png"
+  - "/assets/images/drills/2v2-regroup/image-1.png"
 setup: |
-Line up two pairs of F on the red line and two pairs of D staggered to either half of the ice.
+  Line up two pairs of F on the red line and two pairs of D staggered to either half of the ice.
 full_description: |
 On the whistle, F2/F4 make a pass to the D1/D3 who then hinge and pass to their partner. Both F pairs swing across the ice and receive a pass from the D. After making their pass, the D skate up to the blue line and prepare to face a 2-on-2 from the other pair of F.
 coaching_points:
