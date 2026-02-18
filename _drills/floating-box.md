@@ -19,7 +19,7 @@ equipment:
 - "Pucks"
 - "Pylons"
 categories:
-- "defending"
+- "defence"
 - "passing"
 variations: |
   
