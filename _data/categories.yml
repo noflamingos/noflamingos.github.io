@@ -4,8 +4,8 @@
   name: Battle
 - slug: breakout
   name: Breakout
-- slug: defending
-  name: Defending
+- slug: defensive-zone
+  name: Defensive Zone
 - slug: defence
   name: Defence
 - slug: dry-land
