@@ -18,7 +18,8 @@ equipment:
 - "Pucks"
 categories:
 - "breakout"
-- "defensive-zone"
+- "defence"
+- "passing"
 variations: |
   
 youtube: ""
