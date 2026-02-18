@@ -17,6 +17,7 @@ equipment:
 - "Pucks"
 categories:
 - "regroup"
+- "rushes"
 variations: |
   Alternate versions include making cross ice passes back the strong side or having the players perform two regroups before attacking 3v2.
 youtube: ""
