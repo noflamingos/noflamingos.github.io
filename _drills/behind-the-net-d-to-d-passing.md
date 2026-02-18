@@ -19,6 +19,7 @@ equipment:
 categories:
 - "breakout"
 - "defence"
+- "defensive-zone"
 - "passing"
 variations: |
   
