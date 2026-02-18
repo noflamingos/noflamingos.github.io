@@ -14,7 +14,7 @@ coaching_points:
 equipment:
 - "Pucks"
 categories:
-- "defensive-zone"
+- "defence"
 - "passing"
 variations: |
   Alternate version can incorporate coaches to act as a forechecker or as a forward for a give-and-go pass at the top of the loop (simulating a pass up ice).
