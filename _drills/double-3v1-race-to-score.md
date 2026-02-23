@@ -8,10 +8,10 @@ setup: |
   Split the zone in half and setup two 3v1 games. Have a coach ready with pucks on each side.
 full_description: |
   Two games of three-on-one are played where the goal is to be the first group to score a goal while the defender tries to clear the puck. The rules are:
-  Offensive players must stay in their third of the playing area but can move around within it.
-  Offensive players must make at least three passes before taking a shot.
-  Defensive player is free to move wherever they want.
-  On a puck clear or goaltender freeze, the Coach will yell “new puck” and put a new puck into play (and reset the three-pass rule)
+  - Offensive players must stay in their third of the playing area but can move around within it.
+  - Offensive players must make at least three passes before taking a shot.
+  - Defensive player is free to move wherever they want.
+  - On a puck clear or goaltender freeze, the Coach will yell “new puck” and put a new puck into play (and reset the three-pass rule)
   Once a team scores, the game is over and the players should rotate.
 coaching_points:
 - Offensive players should use deception to open up passing lanes.
