@@ -23,5 +23,5 @@ categories:
 - "rushes"
 variations: |
   Flip the drill into opposite corners.
-youtube: "https://youtu.be/J2MZ7eAcdG8"
+youtube: "https://www.youtube.com/watch?v=J2MZ7eAcdG8"
 ---
