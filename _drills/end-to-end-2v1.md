@@ -19,7 +19,7 @@ equipment:
 - "Pucks"
 - "Pylons"
 categories:
-- "defending"
+- "defence"
 - "rushes"
 variations: |
   Flip the drill into opposite corners.
