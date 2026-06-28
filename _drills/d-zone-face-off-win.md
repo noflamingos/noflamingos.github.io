@@ -21,6 +21,7 @@ equipment:
 categories:
 - "defensive-zone"
 - "face-offs"
+- "systems"
 variations: |
   
 youtube: ""

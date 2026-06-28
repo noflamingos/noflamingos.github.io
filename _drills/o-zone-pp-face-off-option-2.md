@@ -21,6 +21,7 @@ categories:
 - "face-offs"
 - "offensive-zone"
 - "special-teams"
+- "systems"
 variations: |
   
 youtube: ""
