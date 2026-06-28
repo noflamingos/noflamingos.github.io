@@ -1,5 +1,5 @@
 ---
-title: "O-Zone PP Face-off Option 2"
+title: "PP Face-off Option 2 'Hawk'"
 short_description: "Face-off play an OZ PP."
 thumbnail: "/assets/images/drills/o-zone-pp-face-off-option-2/thumb.png"
 images:
