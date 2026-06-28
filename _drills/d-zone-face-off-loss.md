@@ -4,6 +4,7 @@ short_description: "Face-off play for a loss in the DZ."
 thumbnail: "/assets/images/drills/d-zone-face-off-loss/thumb.png"
 images:
   - "/assets/images/drills/d-zone-face-off-loss/1.png"
+  - "/assets/images/drills/d-zone-face-off-loss/2.png"
 setup: |
   Presuming D pair are left- and right-shot, have them flip sides. Both W line-up on the inside dot with the board-side winger on the inside.
 full_description: |
