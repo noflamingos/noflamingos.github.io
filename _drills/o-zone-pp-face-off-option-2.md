@@ -4,6 +4,7 @@ short_description: "Face-off play an OZ PP."
 thumbnail: "/assets/images/drills/o-zone-pp-face-off-option-2/thumb.png"
 images:
   - "/assets/images/drills/o-zone-pp-face-off-option-2/1.png"
+  - "/assets/images/drills/o-zone-pp-face-off-option-2/2.png"
 setup: |
   Presuming the Ws are left- and right- shot, have them flip sides (if not, align normally). The C is trying to win the draw back towards the boards to the W.
 full_description: |

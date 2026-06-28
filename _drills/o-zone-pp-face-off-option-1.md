@@ -4,6 +4,7 @@ short_description: "Face-off play for an OZ PP."
 thumbnail: "/assets/images/drills/o-zone-pp-face-off-option-1/thumb.png"
 images:
   - "/assets/images/drills/o-zone-pp-face-off-option-1/1.png"
+  - "/assets/images/drills/o-zone-pp-face-off-option-1/2.png"
 setup: |
   The face-off is to be taken by a RH shot (so they are shooting on their forehand towards the boards) Two other two F line-up against the boards. The board-side D can stay back of the circle while their partner lines up on the circle just off the hashmarks. The C is trying to win the puck to the boards by slapping at the puck to create an immediate 2-on-1 in our favour. The goal is to overwhelm the opponent and gain possession regardless of a won or lost draw.
 full_description: |
